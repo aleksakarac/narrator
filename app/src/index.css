@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --background:210 20% 10%;
+  --foreground:210 20% 96%;
+  --primary:198 93% 60%;
+  --primary-foreground:210 20% 10%;
+  --muted:210 20% 18%;
+  --muted-foreground:210 10% 70%;
+  --card:210 20% 13%;
+  --card-foreground:210 20% 96%;
+  --border:210 20% 22%;
+  --input:210 20% 22%;
+  --ring:198 93% 60%;
+  --radius:1rem;
+  --chart-1:198 93% 60%;
+  --chart-2:158 75% 52%;
+  --chart-3:42 94% 55%;
+  --chart-4:6 78% 57%;
+  --chart-5:272 58% 58%;
+}
+
+html,body,#root{height:100%}
+body{background-color:hsl(var(--background)); color:hsl(var(--foreground));}
