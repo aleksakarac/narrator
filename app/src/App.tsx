@@ -19,7 +19,7 @@ function App() {
     /*<ThemeProvider defaultTheme="solarized">*/
     <ThemeProvider defaultTheme="dark">
       <Router>
-        <div className="flex flex-col h-screen bg-background text-foreground">
+        <div className="flex flex-col h-screen bg-background text-foreground p-8 text-xl">
           <TopBar />
           <div className="flex flex-1 overflow-hidden">
             <LeftSidebar />
