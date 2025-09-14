@@ -1,0 +1,21 @@
+[package]
+name = "narrator-workers-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+narrator-core = { path = "../../../core" }
+
+# Text processing
+tonk = "0.1"
+unicode-segmentation = "1.11"
+
+# Audio processing
+rodio = "0.17"
+rubato = "0.14"
+
+# ONNX runtime
+ort = "2.0"
+
+[dev-dependencies]
+assert_matches = "1.5"
