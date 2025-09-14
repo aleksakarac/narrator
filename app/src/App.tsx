@@ -16,7 +16,8 @@ import AudioVideoMixingPage from './pages/AudioVideoMixingPage';
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="solarized">
+    /*<ThemeProvider defaultTheme="solarized">*/
+    <ThemeProvider defaultTheme="dark">
       <Router>
         <div className="flex flex-col h-screen bg-background text-foreground">
           <TopBar />
