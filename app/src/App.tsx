@@ -8,6 +8,11 @@ import ManualMode from './pages/ManualMode';
 import AutoMode from './pages/AutoMode';
 import OutputConfigurationPage from './pages/OutputConfigurationPage';
 import ResultsPage from './pages/ResultsPage';
+import TextCleaningPage from './pages/TextCleaningPage';
+import VoiceTTSPage from './pages/VoiceTTSPage';
+import VisualElementsPage from './pages/VisualElementsPage';
+import BackgroundAudioPage from './pages/BackgroundAudioPage';
+import AudioVideoMixingPage from './pages/AudioVideoMixingPage';
 
 function App() {
   return (
@@ -25,6 +30,11 @@ function App() {
                 <Route path="/auto-mode" element={<AutoMode />} />
                 <Route path="/output-configuration" element={<OutputConfigurationPage />} />
                 <Route path="/results" element={<ResultsPage />} />
+                <Route path="/text-cleaning" element={<TextCleaningPage />} />
+                <Route path="/voice-tts" element={<VoiceTTSPage />} />
+                <Route path="/visual-elements" element={<VisualElementsPage />} />
+                <Route path="/background-audio" element={<BackgroundAudioPage />} />
+                <Route path="/audio-video-mixing" element={<AudioVideoMixingPage />} />
               </Routes>
             </MainContent>
           </div>
